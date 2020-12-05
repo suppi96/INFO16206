@@ -1,14 +1,16 @@
 <!-- This file is responsible for all the html and images of catch the alien.-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Catch the alien</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <h1>Catch The Alien</h1>
-    <img src="images/alien.png" id="alien" draggable = "false">
+
+<head>
+	<meta charset="utf-8">
+	<title>Catch the alien</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<h1>Catch The Alien</h1>
+	<img src="images/alien.png" id="alien" draggable = "false">
     <img src="images/spaceship.png" id="spaceship1" class="spaceship" draggable = "false">
 
     <script>
@@ -16,9 +18,9 @@
 
       //Event handler setup
       //1. Create an event handler on the window object for the load event 
-      window.onload = function(){
-        console.log('Page has been loaded');
-      }
+      window.addEventListener("load", function(){
+        console.log('Page has been loaded!');
+	      })
 
       //2. Create an event handler on the window object for the mousemove event  
 
